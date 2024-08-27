@@ -1,0 +1,1008 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizzing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width:100%;
+}
+
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    
+    height: 70%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.texts{
+    color: #045bbe;
+    font-weight: bold;
+    display: flex;
+}
+.texts:hover{
+    cursor: pointer;
+    color: #1293a9;
+}
+
+#contactDetails{
+    cursor: pointer;
+    font-weight: 400;
+    color: #1d3857;
+}
+
+.icon{
+    padding: 8px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: #6aa7ec;
+    cursor: pointer;
+}
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+}
+#login a{
+    text-decoration: none;
+    color: black;
+}
+#login:hover{
+    cursor: pointer;
+    background-color: #6aa7ec;
+}
+#try{
+    background-color: rgb(15, 192, 133);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+#try:hover{
+    cursor: pointer;
+    background-color: #066024;
+}
+
+#fakeHeader{
+    height: 10%;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+#page1{
+    height: 90%;
+    width: 100%;
+    background-color: white;
+}
+#strip{
+    width: 100%;
+    height: 7%;
+    background-color: #141678db;
+    color: white;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#strip p{
+    font-weight: 600;
+}
+#content{
+    width: 100%;
+    height: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#box1{
+    height: 90%;
+    width: 47%;
+    background-color: #fff;
+}
+#box1 h1{
+    font-weight: 600;
+    color:#182562f1 ;
+    font-size: 50px;
+    margin: 30px 30px;
+    align-items: center;
+}
+#box1 p{
+    margin: 30px 30px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+#box2{
+    height: 90%;
+    width: 50%;
+    background-image: url(https://wp.salesforce.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+#card{
+    height: 300px;
+    width: 500px;
+    border:5px solid rgb(116, 123, 228);
+    margin-top: 120px;
+    margin-left: 170px;
+    border-radius: 8px;
+}
+#card video{
+    object-fit: cover;
+    overflow: hidden;
+    height:300px;
+    width: 500px;
+}
+#heading{
+    margin-bottom: 40px;
+    height: 14%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #1d3857;
+    font-size: larger;
+}
+#btns{
+    display: flex;
+    
+}
+#btn1{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 15px 20px;
+    color: white;
+    background-color: #4570cc;
+    border-radius: 7px;
+}
+#btn1:hover{
+    cursor: pointer;
+    background-color: #1d1f5b;
+}
+#btn2{
+    
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 15px 20px;
+    color: #4570cc;
+    border-radius: 7px;
+    border: 2px solid #4570cc;
+}
+#btn2:hover{
+    cursor: pointer;
+    background-color: #b7c6db;
+    color: #373957;
+    border-color: #373957 ;
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: white;
+}
+.cardA{
+    cursor: pointer;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card1{
+    border-radius: 10px;
+    margin: 40px 30px;
+    height: 415px;
+    width: 300px;
+    box-shadow: 3px 3px 2px 2px rgb(190, 185, 185);
+}
+.card1 img{
+    height: 150px;
+    width: 300px;
+}
+.card1 h2{
+    color: #174c89;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.card1 p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.card1 h3{
+    margin-left: 25px;
+    margin-top: 60px;
+    font-weight: lighter;
+    color: #1d3857;
+}
+ 
+.card2{
+    border-radius: 8px;
+    margin: 40px 30px;
+    height: 415px;
+    box-shadow: 3px 3px 2px 2px rgb(190, 185, 185);
+}
+.card2 img{
+    height: 150px;
+    width: 300px;
+}
+
+.card2 h2{
+    color: #174c89;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.card2 p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.card2 h3{
+    margin-left: 25px;
+    margin-top: 60px;
+    font-weight: lighter;
+    color: #1d3857;
+}
+
+.card3{
+    border-radius: 10px;
+    margin: 40px 30px;
+    height: 415px;
+    width: 300px;
+    box-shadow: 3px 3px 2px 2px rgb(190, 185, 185);
+}
+.card3 img{
+    height: 150px;
+    width: 300px;
+}
+
+.card3 h2{
+    color: #174c89;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.card3 p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.card3 h3{
+    margin-left: 25px;
+    margin-top: 50px;
+    font-weight: lighter;
+    color: #1d3857;
+}
+
+.card4{
+    border-radius: 10px;
+    margin: 40px 30px;
+    height: 415px;
+    width: 300px;
+    box-shadow: 3px 3px 2px 2px rgb(190, 185, 185);
+}
+.card4 img{
+    height: 150px;
+    width: 300px;
+}
+.card4 h2{
+    color: #174c89;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.card4 p{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.card4 h3{
+    margin-left: 25px;
+    margin-top: 50px;
+    font-weight: lighter;
+    color: #1d3857;
+}
+#page2{
+    background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#heading1{
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:17px;
+    padding-bottom:17px;
+    margin-top: 30px;
+    margin-left: 620px;
+    margin-right: 620px;
+    color:#4c60a1 ;
+    border: 3px solid #4c60a1;
+    background-color: white;
+}
+#heading1:hover{
+    cursor: pointer;
+    background-color: #dad5d5;
+    color: #373957;
+    border-color: #373957;
+}
+#page3 h4{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 55px;
+    margin-bottom: 40px;
+    color: #174c89;
+    text-align: center;
+    justify-content: center;
+}  
+#page3 p{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#button{
+    margin-bottom: 40px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#button1{
+    font-size: larger;
+    color: white;
+    padding: 10px 20px;
+    background-color: #344994;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#button1:hover{
+    background-color: #172c5c;
+    cursor: pointer;
+}
+#button2{
+    font-size: larger;
+    color: #344994;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #344994;
+    margin-left: 10px;
+}
+#button2:hover{
+    background-color: #819df1;
+}
+
+#cards3{
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.crd31{
+    border-radius: 10px;
+    margin: 40px 30px;
+    height: 450px;
+    width: 350px;
+    box-shadow: 2px 2px 10px;
+}
+.crd31 img{
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.crd31 h5{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #172c5c;
+}
+.crd31 p{
+    margin-top: 20px;
+    margin-left:20px ;
+}
+.crd31 h6{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: lighter;
+    color:#13244d;
+}
+
+
+.crd32{
+    border-radius: 10px;
+    margin: 40px 30px;
+    height: 450px;
+    width: 350px;
+    box-shadow: 2px 2px 10px;
+}
+.crd32 img{
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.crd32 h5{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #172c5c;
+}
+.crd32 p{
+    margin-top: 20px;
+    margin-left:20px ;
+}
+.crd32 h6{
+    margin-left: 20px;
+    margin-top: 70px;
+    font-size: 17px;
+    font-weight: lighter;
+    color:#13244d;
+}
+
+
+.crd33{
+    border-radius: 10px;
+    margin: 40px 30px;
+    height: 450px;
+    width: 350px;
+    box-shadow: 2px 2px 10px;
+}
+
+.crd33 img{
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.crd33 h5{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #172c5c;
+}
+.crd33 p{
+    margin-top: 30px;
+    margin-left:20px ;
+}
+.crd33 h6{
+    margin-left: 20px;
+    margin-top: 85px;
+    font-size: 17px;
+    font-weight: lighter;
+    color:#13244d;
+}
+
+
+#buttn1{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 20px;
+    margin-left: 620px;
+    margin-right: 620px;
+    color: #4f76d2;
+    border:2px solid #045bbe;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+#buttn1:hover{
+    background-color: #d7d7d7;
+    color: #303358;
+    border-color:#303358;
+    cursor: pointer;
+}
+
+#h1{
+    font-size: 50px;
+    text-align: center;
+    color: #134680;
+    font-weight:normal;
+    margin-bottom: 70px;
+}
+
+#buttn2{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 20px;
+    margin-left: 620px;
+    margin-right: 620px;
+    color: #4f76d2;
+    border:2px solid #045bbe;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+#buttn2:hover{
+    background-color: #d7d7d7;
+    color: #303358;
+    border-color:#303358;
+    cursor: pointer;
+}
+
+.crd8{
+    display: flex;
+    justify-content: space-around ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.crd81{
+    height: 115px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+}
+.crd82{
+    height: 115px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+}
+.crd83{
+    height: 115px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+}
+.crd84{
+    height: 115px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+}
+.crd85{
+    height: 115px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+}
+.crd86{
+    height: 115px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+}
+.crd81 img{
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.crd82 img{
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.crd83 img{
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.crd84 img{
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.crd85 img{
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.crd86 img{
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.crd81 img{
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#crdd2{
+    display: flex;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.card22{
+    height: 115px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+    margin-left: 520px;
+    margin-right: 35px;
+}
+.card22 img{
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.card23{
+    height: 115px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+    margin-right: 200px;
+}
+.card23 img{
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+#imgc img{
+    height: 300px;
+    width: 100%;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    
+}
+
+#card01{
+    margin-top: 55px;
+    margin-left: 190px;
+    margin-bottom: 100px;
+    height: 400px;
+    width: 75%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px #a7a6a6;
+}
+
+#card01{
+    background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/12/php-free-trial-mobile-inr2000-940w.png?resize=768,654);
+    background-repeat: no-repeat;
+    background-size: 420px;
+    background-position: right;
+}
+#card01 h5{
+    margin-left: 70px;
+    margin-top: 50px;
+    color: #13244d;
+    font-size: 40px;
+}
+#btn02{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.btn021{
+    border:2px solid #045bbe;
+    padding: 15px 40px;
+    margin-right: 10px;
+    color: white;
+    background-color: #464cbe;
+    border-radius: 8px;
+}
+.btn021:hover{
+    background-color: #222891;
+}
+
+.btn022{
+    border:2px solid #045bbe;
+    padding: 15px 50px;
+    margin-left: 10px;
+    color: #045bbe;
+    border-radius: 8px;
+}
+.btn022:hover{
+    background-color: #b5b8f9;
+    border-color: #1d3857;
+    color:#1d3857;
+}
+
+#card333{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.card3331{
+    border-radius: 8px;
+    width: 300px;
+    height: 415px;
+}
+.card3331 img{
+    height: 300px;
+}
+.card3331 h6{
+    margin-left: 50px;
+    margin-top: 65px;
+    font-size: 17px;
+    color: #134680;
+}
+.card3332{
+    border-radius: 8px;
+    width: 300px;
+    height: 415px;  
+}
+.card3332 img{
+    height: 300px;
+}
+.card3332 h6{
+    margin-left: 50px;
+    margin-top: 65px;
+    font-size: 17px;
+    color: #134680;
+}
+
+.card3333{
+    border-radius: 8px;
+    width: 300px;
+    height: 415px;  
+}
+.card3333 img{
+    height: 300px;
+}
+.card3333 h6{
+    margin-left: 50px;
+    margin-top: 65px;
+    font-size: 17px;
+    color: #134680;
+}
+
+.card3334{
+    border-radius: 8px;
+    width: 300px;
+    height: 415px;
+}
+.card3334 img{
+    height: 300px;
+}
+.card3334 h6{
+    margin-left: 50px;
+    margin-top: 65px;
+    font-size: 17px;
+    color: #134680;
+}
+
+#box02{
+    height: 400px;
+    width: 99%;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1 img{
+    height: 300px;
+}
+.img2 img{
+    height: 300px;
+}
+.img3 img{
+    height: 300px;
+}
+
+#box02 p{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 65px;
+}
+#box22{
+    height: 300px;
+    width: 99.9%;
+}
+#box22 img{
+    object-fit: cover;
+    width: 99.9%;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+#bbox{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    height: 440px;
+    width: 84%;
+    margin-left: 120px;
+    box-shadow: 2px 2px 10px rgb(154, 153, 153);
+    border-radius: 10px;
+    background-image: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/04/pb-hp-footer-mid3-in.jpg?resize=2048,1270);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;  
+}
+#bbox h1{
+    padding-top: 70px;
+    margin-top: 40px;
+    margin-left: 50px;
+    text-align: center;
+    color: #123358;
+    font-size: 40px;
+}
+#bbox p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+}
+#buttonl{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.buttonl1{
+    padding: 15px 40px;
+    border-radius: 8px;
+    margin-right: 10px;
+    color: white;
+    font-weight: bolder;
+    background-color: #3d7ce9;
+}
+.buttonl1:hover{
+    background-color:#172c5c;
+    cursor: pointer;
+}
+
+.buttonl2{
+    padding: 15px 20px;
+    font-size: larger;
+    color: #172c5c;
+}
+.buttonl2:hover{
+    color: #3d7ce9;
+    cursor: pointer;
+}
+
+#boxf{
+    display: flex;
+    height: 450px;
+    width: 99.9%;
+    cursor: pointer;
+}
+.boxf1{
+    height: 350px;
+    width: 30%;
+}
+.boxf1 img{
+    height: 70px;
+    margin-left: 90px;
+}
+.boxf2{
+    height: 450px;
+    width: 65%;
+}
+
+#icon2{
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.ri-facebook-box-fill{
+    font-size: 40px;
+    color: #436fbf;
+}
+.ri-twitter-x-fill{
+    font-size: 40px;
+    color: #436fbf;
+}
+.ri-linkedin-box-fill{
+    font-size: 40px;
+    color: #436fbf;
+}
+.ri-instagram-fill{
+    font-size: 40px;
+    color: #e819ad;
+}
+.ri-youtube-fill{
+    font-size: 40px;
+    color: #e01717;
+}
+.boxf1 p{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bolder;
+    color: #13244d;
+}
+
+.boxf2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.list p{
+    color: #134680;
+}
+
+#footerstrip{
+    margin-top: 30px;
+    height: 50px;
+    width: 99.9%;
+    background-color: #123358;
+    display: flex;
+}
+#world{
+    display: flex;
+    margin-top: 7px;
+    margin-left: 130px;
+}
+.ri-global-line{
+    margin-top: 15px;
+    font-size: 25px;
+    color: white;
+    margin-right: 8px;
+}
+#world p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    margin-right: 5px;
+}
+.ri-skip-down-fill{
+    margin-top: 15px;
+    font-size: 25px;
+    color: white;
+}
+.p{
+    display: flex;
+    margin-left: 80px;
+    margin-top:20px;
+    color: white;
+    font-weight: lighter;
+}
+.p p{
+    margin-left: 15px;
+}
+
+#lasti{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ri-verified-badge-fill{
+    font-size: 20px;
+    color: #4291eb;
+    margin-right: 5px;
+}
+#lasti p{
+    color: white;
+}
+#flast{
+    height: 22px;
+    width: 99.9%;
+    background-color: #123358;
+    padding-bottom: 30px;
+}
+#flast p{
+    color: white;
+    margin-left: 400px;
+    font-weight: 300;
+    
+}
